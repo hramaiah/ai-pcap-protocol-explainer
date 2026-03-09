@@ -1,0 +1,127 @@
+{
+  "DHCP": {
+    "rfc": "RFC2131",
+    "link": "https://datatracker.ietf.org/doc/html/rfc2131",
+    "summary": "DHCP dynamically assigns IP addresses using the Discover, Offer, Request, ACK (DORA) process."
+  },
+
+  "DNS": {
+    "rfc": "RFC1035",
+    "link": "https://datatracker.ietf.org/doc/html/rfc1035",
+    "summary": "DNS resolves domain names to IP addresses using a query-response model."
+  },
+
+  "TCP": {
+    "rfc": "RFC793",
+    "link": "https://datatracker.ietf.org/doc/html/rfc793",
+    "summary": "TCP establishes reliable connections using a three-way handshake: SYN, SYN-ACK, ACK."
+  },
+
+  "UDP": {
+    "rfc": "RFC768",
+    "link": "https://datatracker.ietf.org/doc/html/rfc768",
+    "summary": "UDP is a connectionless transport protocol used for fast message delivery without reliability guarantees."
+  },
+
+  "HTTP": {
+    "rfc": "RFC2616",
+    "link": "https://datatracker.ietf.org/doc/html/rfc2616",
+    "summary": "HTTP is a stateless request-response protocol used for transferring web resources."
+  },
+
+  "TLS": {
+    "rfc": "RFC8446",
+    "link": "https://datatracker.ietf.org/doc/html/rfc8446",
+    "summary": "TLS provides encrypted communication using a handshake between client and server."
+  },
+
+  "EAP": {
+    "rfc": "RFC3748",
+    "link": "https://datatracker.ietf.org/doc/html/rfc3748",
+    "summary": "Extensible Authentication Protocol is used for network authentication including 802.1X."
+  },
+
+  "EAPOL": {
+    "rfc": "IEEE802.1X",
+    "link": "https://standards.ieee.org/standard/802_1X.html",
+    "summary": "EAPOL carries EAP messages over LAN networks and is used for port-based network access control."
+  },
+
+  "LLDP": {
+    "rfc": "IEEE802.1AB",
+    "link": "https://standards.ieee.org/standard/802_1AB.html",
+    "summary": "LLDP is a link-layer discovery protocol used for advertising identity and capabilities to neighboring devices."
+  },
+
+  "STP": {
+    "rfc": "IEEE802.1D",
+    "link": "https://standards.ieee.org/standard/802_1D.html",
+    "summary": "Spanning Tree Protocol prevents layer 2 loops by creating a loop-free logical topology."
+  },
+
+  "RSTP": {
+    "rfc": "IEEE802.1W",
+    "link": "https://standards.ieee.org/standard/802_1W.html",
+    "summary": "Rapid Spanning Tree Protocol improves convergence time compared to traditional STP."
+  },
+
+  "MSTP": {
+    "rfc": "IEEE802.1S",
+    "link": "https://standards.ieee.org/standard/802_1S.html",
+    "summary": "Multiple Spanning Tree Protocol allows multiple spanning tree instances for different VLANs."
+  },
+
+  "LACP": {
+    "rfc": "IEEE802.1AX",
+    "link": "https://standards.ieee.org/standard/802_1AX.html",
+    "summary": "Link Aggregation Control Protocol bundles multiple physical links into a single logical link."
+  },
+
+  "MLAG": {
+    "rfc": "VendorSpecific",
+    "link": "https://en.wikipedia.org/wiki/Multi-chassis_link_aggregation",
+    "summary": "MLAG allows link aggregation across multiple switches for redundancy and load balancing."
+  },
+
+  "OSPF": {
+    "rfc": "RFC2328",
+    "link": "https://datatracker.ietf.org/doc/html/rfc2328",
+    "summary": "OSPF is a link-state routing protocol that computes shortest paths using Dijkstra's algorithm."
+  },
+
+  "OSPFv3": {
+    "rfc": "RFC5340",
+    "link": "https://datatracker.ietf.org/doc/html/rfc5340",
+    "summary": "OSPFv3 supports IPv6 routing and improves security and extensibility."
+  },
+
+  "RIP": {
+    "rfc": "RFC2453",
+    "link": "https://datatracker.ietf.org/doc/html/rfc2453",
+    "summary": "RIP is a distance-vector routing protocol that uses hop count as its routing metric."
+  },
+
+  "PIM": {
+    "rfc": "RFC7761",
+    "link": "https://datatracker.ietf.org/doc/html/rfc7761",
+    "summary": "Protocol Independent Multicast Sparse Mode is used for multicast routing where receivers explicitly join groups."
+  },
+
+  "BGP": {
+    "rfc": "RFC4271",
+    "link": "https://datatracker.ietf.org/doc/html/rfc4271",
+    "summary": "Border Gateway Protocol is the primary routing protocol used for inter-domain routing on the Internet."
+  },
+
+  "ICMP": {
+    "rfc": "RFC792",
+    "link": "https://datatracker.ietf.org/doc/html/rfc792",
+    "summary": "ICMP is used for network diagnostics such as ping and traceroute."
+  },
+
+  "ARP": {
+    "rfc": "RFC826",
+    "link": "https://datatracker.ietf.org/doc/html/rfc826",
+    "summary": "ARP maps IP addresses to MAC addresses within a local network."
+  }
+}
